@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OfflineBook\Book33.cs" />
+    <Compile Include="OfflineBook\Book34.cs" />
+    <Compile Include="OfflineBook\Book35.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
