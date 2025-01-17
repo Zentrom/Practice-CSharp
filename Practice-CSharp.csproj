@@ -46,6 +46,9 @@
     <Compile Include="OfflineBook\Book33.cs" />
     <Compile Include="OfflineBook\Book34.cs" />
     <Compile Include="OfflineBook\Book35.cs" />
+    <Compile Include="OfflineBook\Book46.cs" />
+    <Compile Include="OfflineBook\Book47.cs" />
+    <Compile Include="OfflineBook\Book48.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
