@@ -12,7 +12,7 @@ namespace Practice_CSharp
             do
             {
                 Console.WriteLine("Which file to run? (0 to exit!)");
-                List<int> files = new List<int>() { 33, 34, 35, 46, 47, 48, 53 };
+                List<int> files = new List<int>() { 33, 34, 35, 46, 47, 48, 53, 63, 65 };
                 foreach (int file in files)
                 {
                     Console.WriteLine(file);
@@ -49,6 +49,14 @@ namespace Practice_CSharp
                     case 53:
                         BContainers53 book53 = new BContainers53();
                         book53.Run();
+                        break;
+                    case 63:
+                        BClass63 book63 = new BClass63();
+                        book63.Run();
+                        break;
+                    case 65:
+                        BInterface65 book65 = new BInterface65();
+                        book65.Run();
                         break;
                     default:
                         break;

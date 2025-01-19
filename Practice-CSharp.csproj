@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OfflineBook\BClass63.cs" />
     <Compile Include="OfflineBook\BContainers53.cs" />
+    <Compile Include="OfflineBook\BInterface65.cs" />
     <Compile Include="OfflineBook\Book33.cs" />
     <Compile Include="OfflineBook\Book34.cs" />
     <Compile Include="OfflineBook\Book35.cs" />
