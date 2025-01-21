@@ -109,6 +109,7 @@ namespace Practice_CSharp.OfflineBook
             PersonResponse personJson = JsonConvert.DeserializeObject<PersonResponse>(resultString);
             Console.WriteLine(personJson.Name);
             Console.WriteLine(personJson.Gender);
+
         }
     }
 }

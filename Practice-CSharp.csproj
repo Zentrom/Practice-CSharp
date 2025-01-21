@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="OfflineBook\BClass63.cs" />
     <Compile Include="OfflineBook\BContainers53.cs" />
+    <Compile Include="OfflineBook\BDelegate76.cs" />
     <Compile Include="OfflineBook\BInterface65.cs" />
     <Compile Include="OfflineBook\BIOAndJson74.cs" />
     <Compile Include="OfflineBook\Book33.cs" />
