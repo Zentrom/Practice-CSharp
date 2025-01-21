@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Practice_CSharp.OfflineBook
 {
-    public class Book33
+    public class BList33
     {
         public void Run()
         {

@@ -2,7 +2,7 @@
 
 namespace Practice_CSharp.OfflineBook
 {
-    public class Book46
+    public class BAlgorithms46
     {
         bool HasNegative(int[] array)
         {

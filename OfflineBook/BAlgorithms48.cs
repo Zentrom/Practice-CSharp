@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Practice_CSharp.OfflineBook
 {
-    public class Book48
+    public class BAlgorithms48
     {
         int FindSmallest(int[] values, int maxValue)
         {

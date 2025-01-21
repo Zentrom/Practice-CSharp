@@ -12,7 +12,7 @@ namespace Practice_CSharp
             do
             {
                 Console.WriteLine("Which file to run? (0 to exit!)");
-                List<int> files = new List<int>() { 33, 34, 35, 46, 47, 48, 53, 63, 65, 71, 74, 76 };
+                List<int> files = new List<int>() { 33, 34, 35, 46, 47, 48, 53, 63, 65, 71, 74, 76, 77 };
                 foreach (int file in files)
                 {
                     Console.WriteLine(file);
@@ -23,27 +23,27 @@ namespace Practice_CSharp
                 switch (fileToRun)
                 {
                     case 33:
-                        Book33 book33 = new Book33();
+                        BList33 book33 = new BList33();
                         book33.Run();
                         break;
                     case 34:
-                        Book34 book34 = new Book34();
+                        BRandom34 book34 = new BRandom34();
                         book34.Run();
                         break;
                     case 35:
-                        Book35 book35 = new Book35();
+                        BRandom35 book35 = new BRandom35();
                         book35.Run();
                         break;
                     case 46:
-                        Book46 book46 = new Book46();
+                        BAlgorithms46 book46 = new BAlgorithms46();
                         book46.Run();
                         break;
                     case 47:
-                        Book47 book47 = new Book47();
+                        BAlgorithms47 book47 = new BAlgorithms47();
                         book47.Run();
                         break;
                     case 48:
-                        Book48 book48 = new Book48();
+                        BAlgorithms48 book48 = new BAlgorithms48();
                         book48.Run();
                         break;
                     case 53:
@@ -69,6 +69,10 @@ namespace Practice_CSharp
                     case 76:
                         BDelegate76 book76 = new BDelegate76();
                         book76.Run();
+                        break;
+                    case 77:
+                        BLinq77 book77 = new BLinq77();
+                        book77.Run();
                         break;
                     default:
                         break;

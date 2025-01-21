@@ -2,7 +2,7 @@
 
 namespace Practice_CSharp.OfflineBook
 {
-    public class Book34
+    public class BRandom34
     {
         public void Run()
         {

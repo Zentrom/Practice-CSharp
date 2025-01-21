@@ -2,7 +2,7 @@
 
 namespace Practice_CSharp.OfflineBook
 {
-    public class Book47
+    public class BAlgorithms47
     {
         int[] FirstNumbersOfAnArray(int length)
         {
