@@ -1,0 +1,39 @@
+﻿<Window x:Class="PrimeOrNot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrimeOrNot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBox Grid.Row="0"
+                 x:Name="numberTextBox"/>
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0"
+                    x:Name="randomNumberGenerator"
+                    Content="New Number"
+                    Click="randomNumberGenerator_Click"/>
+
+            <Button Grid.Column="1"
+                    x:Name="checkButton"
+                    Content="Check Number"
+                    Click="checkButton_Click"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
